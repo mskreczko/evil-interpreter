@@ -91,7 +91,7 @@ class EvilInterpreter:
     def deleteWheelCell(self):
         del self.wheel[self.wheelPtr]
 
-    def weave(self, cmd):
+    def weave(self, cmd: int):
         weaveMap = [4, 1, 16, 2, 64, 8, 128, 32]
         mask = 1
         result = 0
